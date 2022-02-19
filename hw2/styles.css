@@ -1,0 +1,126 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 450px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 75px;
+  }
+
+  .greecesquare {
+    width: 7.41%;
+    height: 11.11%
+  }
+
+  .greecebar {
+    width: 62.95%;
+    height: 11.11%
+  }
+
+  .greecelong {
+    width: 100%;
+    height: 11.11%;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+  .blue2 {
+    background-color: rgb(13, 90, 239);
+  }
